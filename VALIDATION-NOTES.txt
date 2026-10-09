@@ -1,0 +1,8 @@
+NEXORA PACKAGE NOTES
+
+This archive is a cleaned and renamed package of the source ZIP you supplied.
+It is not represented as fully error-free: dependency installation and the full test/build pipeline could not be completed in the available validation environment.
+
+See SECURITY-AND-VALIDATION-REPORT.md for exact checks, limitations, and next steps.
+
+Before using any provider integrations, create a local .env from .env.example and add your own API keys locally. Never put secrets in frontend VITE_ variables or commit/upload .env.
